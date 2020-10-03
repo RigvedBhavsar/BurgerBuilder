@@ -1,0 +1,32 @@
+.Burger{
+    width: 100%;
+    margin :auto;
+    height : 250px;
+    overflow : scroll;
+    text-align :center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* jar screen chi min width 500 asen and min height 400 px asen trr maza brger class */
+@media (min-width : 500px) and (min-height :400px) {
+    .Burger{
+        width: 350px;
+        height: 300px;
+    }
+}
+/* jar screen chi min width 500 asen and min height 401 px asen trr maza brger class */
+@media (min-width : 500px) and (min-height :401px) {
+    .Burger{
+        width: 450px;
+        height: 400px;
+    }
+}
+
+/* jar screen chi min width 1000 asen and min height 700 px asen trr maza brger class */
+@media (min-width : 1000px) and (min-height :700px) {
+    .Burger{
+        width: 700px;
+        height: 600px;
+    }
+}
